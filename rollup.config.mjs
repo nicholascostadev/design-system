@@ -19,7 +19,7 @@ export default [
     ],
     plugins: [
       scss({
-        fileName: "bundle.css"
+        fileName: "bundle.css",
       }),
       typescript({ tsconfig: "./tsconfig.json", clean: true }),
     ],

@@ -52,16 +52,13 @@ export const Header = ({
             <span className="welcome">
               Welcome, <b>{user.name}</b>!
             </span>
-            <Button size="small" onClick={onLogout} label="Log out" />
+            <Button  />
           </>
         ) : (
           <>
-            <Button size="small" onClick={onLogin} label="Log in" />
+            <Button  />
             <Button
-              primary
-              size="small"
               onClick={onCreateAccount}
-              label="Sign up"
             />
           </>
         )}
