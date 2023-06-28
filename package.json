@@ -14,7 +14,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "watch:scss & storybook dev -p 6006",
     "build-storybook": "storybook build",
     "rollup": "rollup -c",
     "watch:scss": "yarn typed-scss-modules stories --nameFormat none --exportType default --watch"
@@ -27,6 +27,7 @@
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "typed-scss-modules": "^7.1.1",
     "typescript": "5.0.4"
   },
   "devDependencies": {

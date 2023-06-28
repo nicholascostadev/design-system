@@ -1,0 +1,37 @@
+:root {
+  --primary: #0070F0;
+  --secondary: #151E28;
+  --tertiary: #EFF3F8;
+  --twitter: #1DA1F2;
+  --dark50: #3C4753;
+  --white: #FFFFFF;
+
+  --button-font-family: sans-serif;
+
+  --button-primary-background: var(--primary);
+  --button-primary-foreground: var(--white);
+  --button-primary-hover-background: var(--twitter);
+  --button-primary-hover-foreground: var(--white);
+  --button-primary-active-background: #004FA9;
+  --button-primary-active-foreground: var(--white);
+  --button-primary-focus-background: #004FA9;
+  --button-primary-focus-foreground: var(--white);
+
+  --button-secondary-background: var(--secondary);
+  --button-secondary-foreground: var(--white);
+  --button-secondary-hover-background: var(--twitter);
+  --button-secondary-hover-foreground: var(--white);
+  --button-secondary-active-background: var(--primary);
+  --button-secondary-active-foreground: var(--white);
+  --button-secondary-focus-background: var(--primary);
+  --button-secondary-focus-foreground: var(--white);
+
+  --button-tertiary-background: var(--tertiary);
+  --button-tertiary-foreground: var(--dark50);
+  --button-tertiary-hover-background: var(--white);
+  --button-tertiary-hover-foreground: var(--dark50);
+  --button-tertiary-active-background: var(--primary);
+  --button-tertiary-active-foreground: var(--white);
+  --button-tertiary-focus-background: var(--primary);
+  --button-tertiary-focus-foreground: var(--white);
+}
