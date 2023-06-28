@@ -1,9 +1,7 @@
 {
-  "name": "@nicholascostadev/testing-design-system",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/nicholascostadev"
-  },
-  "version": "0.0.4",
+  "private": false,
+  "name": "@nicholascostadev/design-system",
+  "version": "0.0.1",
   "description": "A simple design system for training",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -30,9 +28,6 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.2",
-    "@rollup/plugin-node-resolve": "^15.1.0",
-    "@rollup/plugin-typescript": "^11.1.1",
     "@storybook/addon-essentials": "^7.0.6",
     "@storybook/addon-interactions": "^7.0.6",
     "@storybook/addon-links": "^7.0.6",

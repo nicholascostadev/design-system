@@ -1,8 +1,5 @@
-import resolve from "@rollup/plugin-node-resolve";
-import commonjs from "@rollup/plugin-commonjs";
 import typescript from "rollup-plugin-typescript2";
 import scss from 'rollup-plugin-scss'
-import dts from "rollup-plugin-dts";
 
 import packageJson from './package.json' assert { type: "json" };
 
@@ -16,11 +13,13 @@ export default [
       },
       {
         file: packageJson.module,
-        format: "es",
+        format: "esm",
       },
     ],
     plugins: [
-      scss(),
+      scss({
+        fileName: "bundle.css"
+      }),
       typescript({ tsconfig: "./tsconfig.json", clean: true }),
     ],
   }
