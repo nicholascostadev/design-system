@@ -10,13 +10,14 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "next dev",
+    "dev": "watch:scss next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "watch:scss": "yarn typed-scss-modules stories --nameFormat none --exportType default --watch"
   },
   "dependencies": {
     "@types/node": "18.15.12",
